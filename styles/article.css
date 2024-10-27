@@ -1,0 +1,109 @@
+.container > main >.article{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    animation: renderImage 10s linear infinite;
+    animation-timing-function: cubic-bezier(0.17, 0.885, 0.32, 1.275);
+}
+@keyframes renderImage {
+    0%{
+        background-image: url(/assets/img/banner-5.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(/assets/img/banner-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-image: url(/assets/img/banner-5.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.container > main >.article >.article-data{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 19, 5, 0);
+    display: flex;
+    backdrop-filter:blur(6px) ;
+    color: white;
+    padding: 0 180px;
+    font-family: var(--trebuchet-font);
+}
+.container > main >.article >.article-data>.txt-content{
+    width: 50%;
+    height: 100%;
+    padding:130px 80px;
+
+}
+.container > main >.article >.article-data>.txt-content>h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.container > main >.article >.article-data>.txt-content>button{
+    font-family: var(--trebuchet-font);
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    margin-right: 10px;
+}
+.container > main >.article >.article-data>.txt-content> button:nth-last-of-type(1){
+    background-color: var(--nav-footer-color) ;
+}
+.container > main >.article >.article-data>.txt-content> button:nth-last-of-type(2){
+    background-color: var(--btn-n-txt-color) ;
+}
+
+/* form-borrow style */
+.container > main >.article >.article-data>.form-borrow{
+    width: 50%;
+    height: 100%;
+    padding: 100px 80px;
+}
+.container > main >.article >.article-data>.form-borrow >form{
+    background-color: white;
+    color: black;
+    padding: 50px 30px;
+    border-radius: 10px;
+
+}
+.container > main >.article >.article-data>.form-borrow >form >.about-borrow{
+    width: 100%;
+    display: flex;
+}
+.container > main >.article >.article-data>.form-borrow >form >.about-borrow >.amout-money,
+.container > main >.article >.article-data>.form-borrow >form >.about-borrow >.how-long{
+    width: 50%;
+    height: 100%;
+}
+.container > main >.article >.article-data>.form-borrow >form >.about-borrow >.how-long{
+    margin-left: 10px;
+}
+.container > main >.article >.article-data>.form-borrow >form >.about-borrow >.amout-money >input,
+.container > main >.article >.article-data>.form-borrow >form >.about-borrow >.how-long> input,
+.container > main >.article >.article-data>.form-borrow >form >input{
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background-color: rgb(236, 231, 231);
+    margin: 10px 0;
+}
+.container >main >.article >.article-data >.form-borrow > form >button{
+    font-family: var(--trebuchet-font);
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+    color: white;
+    background-color: var(--btn-n-txt-color);
+    margin-right: 10px;
+}

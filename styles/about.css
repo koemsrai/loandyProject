@@ -1,0 +1,63 @@
+
+.container > main >.about{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    background-color:white;
+    display: flex;
+    padding: 0 180px;
+    
+}
+.container > main >.about>.about-txt,
+.container > main >.about>.about-image{
+    width: 50%;
+    height: 100%;
+    font-family: var(--trebuchet-font);
+}
+
+.container > main >.about>.about-txt{
+    padding: 100px 80px;
+}
+.container > main >.about>.about-txt>h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.container > main >.about>.about-txt >.our{
+    width: 100%;
+    display: flex;
+}
+.container > main >.about>.about-txt >.our >.company,
+.container > main >.about>.about-txt >.our >.vision{
+    padding-top: 50px;
+    width: 50%;
+    height: 100%;
+    
+}
+.container > main >.about>.about-txt >.our >.company>h1,
+.container > main >.about>.about-txt >.our >.vision>h1{
+    font-size: 25px;
+}
+.container > main >.about>.about-image{
+   padding: 20px 60px;
+
+}
+.container > main >.about>.about-image> .image-contain{
+    width: 100%;
+    height: 100%;
+}
+.container > main >.about>.about-image> .image-contain >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.container > main >.about>.about-txt >button{
+    margin-top: 60px;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 2px;
+    background-color: var(--btn-n-txt-color);
+    font-family: var(--trebuchet-font);
+    border: none;
+    color: white;
+}

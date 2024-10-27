@@ -1,0 +1,83 @@
+.container > main >.discover{
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: var(--trebuchet-font);
+    
+}
+.container >main >.discover >h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.container >main >.discover >.row-card{
+    width: 100%;
+    height: 75%;
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    text-shadow: 0 2px 10px black;
+}
+.container >main >.discover >.row-card>.card{
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.container >main >.discover >.row-card>.card>.body>h1{
+    font-size: 25px;
+}
+.container >main >.discover >.row-card>.card >.pannel{
+    width: 100%;
+    height: 92%;
+    transition: 0.2s ease-in-out;
+}
+.container >main >.discover >.row-card>.card:hover >.pannel{
+    height: 70%;
+}
+.container >main >.discover >.row-card>.card>.body{
+    text-align: left;
+    padding: 0 30px;
+}
+.container >main >.discover >.row-card>.card>.body>h5{
+    margin-top: 30px;
+}
+.container >main >.discover >.row-card>.card>.body>h5>a{
+    text-transform: uppercase;
+    color: chartreuse;
+}
+.container >main >.discover >.row-card>.card>.body >h1{
+    margin-bottom: 20px;
+}
+.container >main >.discover >.row-card>.card>.body >h1 >p{
+    margin-bottom: 10px;
+}
+.container >main >.discover >.row-card>.card:nth-last-of-type(5){
+    background-image: url(/assets/img/card-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container >main >.discover >.row-card>.card:nth-last-of-type(1){
+    background-image: url(/assets/img/card-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container >main >.discover >.row-card>.card:nth-last-of-type(2){
+    background-image: url(/assets/img/card-3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container >main >.discover >.row-card>.card:nth-last-of-type(3){
+    background-image: url(/assets/img/card-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container >main >.discover >.row-card>.card:nth-last-of-type(4){
+    background-image: url(/assets/img/card-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+

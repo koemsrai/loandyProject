@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --nav-footer-color: #182143;
+    --btn-n-txt-color: #88C417;
+    --hover-color: #292c38;
+    --footer-font-color: #898787;
+    --trebuchet-font: 'Arial, Helvetica, sans-serif';
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--nav-footer-color);
+}
+.container > main{
+    width: 100%;
+}
+.container > footer {
+    width: 100%;
+}
